@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+summary{
+    /* margin-bottom: 20px; */
+    cursor: pointer;
+    background-color: rgba(49, 92, 117, 0.418);
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: 60;;
+
+}
+
+summary:hover{
+    background-color: rgba(49, 92, 117, 0.178);
+}
+
+details{
+    margin: 20px;
+}
+
+details p{
+    line-height: 1.5rem;
+    margin-bottom: 1px;
+
+
+}
+
+details img{
+    cursor: pointer;
+}
